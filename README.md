@@ -7,8 +7,9 @@ This project is my personal portfolio website, showcasing my skills, projects, a
 ## Technologies Used
 
 - HTML
-- CSS
+- CSS (Animate.css)
 - JavaScript
+- Bootstrap
 - Firebase (for hosting)
 
 ### Navigate to this url to launch my website: https://personalportfolio-7eaaa.web.app/
