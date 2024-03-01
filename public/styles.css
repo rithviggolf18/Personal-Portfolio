@@ -1,0 +1,152 @@
+/* Resetting default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Background styling */
+.background {
+    font-family: 'Pacifico', cursive;
+    line-height: 1.6;
+    background: radial-gradient(at 18% 99%, rgb(223, 229, 113) 0px, transparent 50%) repeat scroll 0% 0%, 
+                radial-gradient(at 97% 8%, rgb(118, 249, 173) 0px, transparent 50%) repeat scroll 0% 0%, 
+                radial-gradient(at 79% 82%, rgb(233, 109, 131) 0px, transparent 50%) repeat scroll 0% 0%,
+                radial-gradient(at 96% 10%, rgb(222, 81, 251) 0px, transparent 50%) repeat scroll 0% 0%,    
+                radial-gradient(at 42% 20%, rgb(116, 240, 251) 0px, transparent 50%) repeat scroll 0% 0%,
+                radial-gradient(at 4% 49%, rgb(203, 88, 218) 0px, transparent 50%) repeat scroll 0% 0%, 
+                radial-gradient(at 27% 71%, rgb(175, 97, 220) 0px, transparent 50%) repeat scroll 0% 0%, 
+                radial-gradient(at 57% 33%, rgb(218, 83, 228) 0px, #a299ff 50%) repeat scroll 0% 0%;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+body, h1, h2, h3, h4, p, ul, li {
+    text-align: center;
+}
+
+/* Title styling */
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #333;
+}
+.about-content {
+    margin-left: 140px; /* Set margin to 0 */
+    margin-right: 140px;
+  }
+/* Section styling */
+.section {
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.section p {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+#skills ul{
+    list-style-type: none;
+}
+
+/* skills section */
+#skills ul li {
+    margin-bottom: 10px; 
+}
+
+/* Experience section */
+#experience .job {
+    margin-bottom: 30px; 
+}
+
+/* Projects section */
+#projects .project {
+    margin-bottom: 30px; 
+}
+
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .section {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
+}
+
+/* Portfolio container styling */
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; 
+    border-radius: 10px;
+    padding: 20px; 
+}
+
+/* Styling for sections within portfolio container */
+.portfolio-container section {
+    margin-top: 20px; 
+    padding: 15px; 
+    border-radius: 10px; /* Rounded corners for sections */
+}
+
+/* Styling for section headings */
+.portfolio-container section h3 {
+    color: #fff; 
+    font-size: 1.5em; 
+    text-align: center; 
+    margin-bottom: 40px; 
+}
+
+/* CSS for the profile image */
+.profile-image {
+    position: relative;
+    left: 0.7%;
+    margin-bottom: 18px;
+    border-radius: 50%; /* Make it round */
+    margin-right: 20px; /* Add spacing between image and text */
+}
+
+
