@@ -11,4 +11,4 @@ This project is my personal portfolio website, showcasing my skills, projects, a
 - JavaScript
 - Firebase (for hosting)
 
-## Navigate to this url to launch my website: https://personalportfolio-7eaaa.web.app/
+### Navigate to this url to launch my website: https://personalportfolio-7eaaa.web.app/
