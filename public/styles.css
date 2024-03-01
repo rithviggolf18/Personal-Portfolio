@@ -59,10 +59,12 @@ nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.5);
     color: #333;
 }
+
 .about-content {
     margin-left: 140px; 
     margin-right: 140px;
-  }
+}
+
 /* Section styling */
 .section {
     padding: 50px;
@@ -80,7 +82,7 @@ nav ul li a:hover {
     line-height: 1.8;
 }
 
-#skills ul{
+#skills ul {
     list-style-type: none;
 }
 
@@ -97,22 +99,6 @@ nav ul li a:hover {
 /* Projects section */
 #projects .project {
     margin-bottom: 30px; 
-}
-
-
-/* Media query for responsiveness */
-@media screen and (max-width: 768px) {
-    .section {
-        padding: 30px;
-    }
-
-    h1 {
-        font-size: 2.5em;
-    }
-
-    nav ul li a {
-        font-size: 1em;
-    }
 }
 
 /* Portfolio container styling */
@@ -147,6 +133,21 @@ nav ul li a:hover {
     margin-bottom: 18px;
     border-radius: 50%; /* Make it round */
     margin-right: 20px; /* Add spacing between image and text */
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .section {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
 }
 
 
