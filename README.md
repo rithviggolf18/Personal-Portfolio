@@ -7,7 +7,7 @@ This project is my personal portfolio website, showcasing my skills, projects, a
 ## Technologies Used
 
 - HTML
-- CSS (Animate.css)
+- CSS
 - JavaScript
 - Bootstrap
 - Firebase (for hosting)
